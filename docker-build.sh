@@ -8,4 +8,4 @@ if [ ! -z $1 ]; then
     TAG=$1
 fi
 
-docker build -t francisjosue/dmc-api:$TAG ./
+docker build -t noelyzaguirreq/dmc-api:$TAG ./
